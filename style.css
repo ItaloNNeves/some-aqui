@@ -112,11 +112,14 @@
                 background-color: rgb(184, 182, 182);
                 padding: 20px;
                 min-width: 200px;
-                line-height: 0;
+                line-height: 1;
                 border-radius: 16px;
             }
             @media  screen and (max-width: 400px) {
-               .box-calc{
-                margin: 0 30px;
+                body{
+                    height: 100%;
+                }
+                .box-calc{
+                margin: 50% 30px 0;
                }
             }
